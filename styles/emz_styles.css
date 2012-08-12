@@ -1,0 +1,147 @@
+.emz_wrapper, .emz_header, .emz_header_title, .emz_content, .emz_event, .emz_title, .emz_date, .emz_day, .emz_month, .emz_event_desc, .emz_event_actions, .emz_moreinfo, .emz_buttons, .emz_moreinfo, .emz_footer, .emz_brand{
+	display:block;
+	position:relative;
+}
+.emz_wrapper:after, .emz_header:after, .emz_content:after, .emz_event:after, .emz_date:after, .emz_event_actions:after, .emz_buttons:after, .emz_footer:after{
+	display:block;
+	position:relative;
+	content:"\00a0";
+	height:0;
+}
+.emz_wrapper, .emz_header_title, .emz_title, .emz_day, .emz_month, .emz_event_desc, .emz_event_actions, .emz_buttons{
+	font-family:Helvetica,Arial,sans-serif;
+}
+.emz_wrapper{
+	background-color:transparent;
+}
+.emz_header{
+	height:78px;
+	padding-top:1px;
+	background:transparent url("../images/emz_head.png") left top no-repeat;
+}
+.emz_header_title{
+	font-size:32px;
+	padding-bottom:10px;
+	margin:16px 23px 0px 23px;
+	border-bottom:1px dotted #4F4A4A;
+	color:#000;
+}
+.emz_content{
+	background-color:white;
+	padding:0 23px;
+}
+.emz_event{
+	margin-bottom:10px;
+	border-bottom:1px solid #B1B1B1;
+}
+.emz_title{
+	font-weight:bold;
+	color:#282828;
+	font-size:15px;
+	margin-bottom:10px;
+}
+.emz_date{
+	float:left;
+	width:30px;
+}
+	.emz_day{
+		width:32px;
+		height:32px;
+		line-height:34px;
+		background: transparent url("../images/emz_icn_agenda.png") left top no-repeat;
+		text-align:center;
+		font-weight:bold;
+	}
+	.emz_month{
+		text-align:center;
+		text-transform:uppercase;
+		font-size:11px;
+		color:#9C9C9C;
+	}
+.emz_event_desc{
+	padding-left:40px;
+	color:#9C9C9C;
+	font-size:12px;
+	line-height:14px;
+}
+.emz_event_desc p{
+	margin:0;
+	padding:0;
+}
+.emz_event_actions{
+	text-align:right;
+	clear:both;
+	margin:10px 0;
+}
+.emz_event_actions a{
+	color:#18B8F1;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+	line-height:14px;
+}
+	.emz_moreinfo{}
+.emz_buttons{
+	clear:both;
+	text-align:right;
+}
+	.emz_buttons .emz_moreinfo{
+		display:inline-block;
+		font-size:11px;
+		text-transform:uppercase;
+		padding: 5px 20px;
+		margin: 15px 0 0;
+		clear: both;
+		background: transparent url("../images/bg-button.png") left top repeat-x;
+		border: 1px solid #33B1E2;
+		text-align: center;
+		color: #fff;
+		text-shadow: -1px -1px 0 rgba(0,0,0,0.25);
+		text-decoration: none;
+		cursor: pointer;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		-o-border-radius:3px;
+		border-radius:3px;
+		font-weight: bold;
+	}
+	.emz_buttons .emz_moreinfo:hover{
+	background: #90d3eb url("../images/bg-button-dwn.png") left top repeat-x;
+	}
+.emz_footer{
+	min-height:60px;
+	padding-bottom:10px;
+	background:white url("../images/emz_foot.png") left bottom no-repeat;
+}
+	.emz_brand{
+		float:right;
+		width:100%;
+		height:60px;
+		margin-right:8px;
+	}
+	.emz_brand.emz_deportes{
+		background:transparent url("../images/emz_foot_dxt.png") right center no-repeat;
+	}
+	.emz_brand.emz_cultura{
+		background:transparent url("../images/emz_foot_dxt.png") right center no-repeat;
+	}
+	.emz_brand.emz_turismo{
+		background:transparent url("../images/emz_foot_dxt.png") right center no-repeat;
+	}
+		
+/*nombres de clases temporales*/
+body{background-color:#333;}
+.modulo{
+	display:block;
+	float:left;
+	margin-right:20px;
+}
+.m1{
+	width:160px;
+}
+.m2{
+	width:297px;
+}
+.m3{
+	width:590px;
+}
