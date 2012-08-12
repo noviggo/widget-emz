@@ -43,7 +43,7 @@ var EMZ = function () {
      */
     reparticion = '',
     classReparticion = '',
-    classWidget = 'emz_widget',
+    idWidget = 'emz_widget',
     
     /* Cantidad de eventos a traer */
     limit = '3',
@@ -181,7 +181,7 @@ var EMZ = function () {
 
   function start() {
     var url = baseurl + apiurl + "?q=" + reparticion + "&limit=" + limit + "&format=jsonp&callback=EMZ.callbackfunc";
-    emzWidget = document.getElementById(classWidget);
+    emzWidget = document.getElementById(idWidget);
 
     /* Crear mensaje de "Cargando" */
     var strWidget="";
@@ -216,8 +216,11 @@ var EMZ = function () {
     if (args.reparticion) {
         reparticion = args.reparticion;
     }
-    if (args.classWidget) {
-        classWidget = args.classWidget;
+    if (args.idWidget) {
+        idWidget = args.idWidget;
+    }
+    if (args.limite) {
+        limit = args.limite;
     }
    
     switch (reparticion) {
