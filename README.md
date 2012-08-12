@@ -14,8 +14,8 @@ Instrucciones de uso:
 ```html
   <!-- Script widget emz -->
   <link rel="stylesheet" href="/widget-emz/styles/emz_styles.css">
-  <script>document.write('<script src="/widget-emz/scripts/emz_script.js"><\/script>')</script>
-  <script>
+  <script type="text/javascript">document.write('<script src="/widget-emz/scripts/emz_script.js"><\/script>')</script>
+  <script type="text/javascript">
     EMZ.init({});
   </script>
  
@@ -35,8 +35,8 @@ Si se desea obtener los resultados de alguna repartición en particular, colocar
 ```html
   <!-- Script widget emz -->
   <link rel="stylesheet" href="/widget-emz/styles/emz_styles.css">
-  <script>document.write('<script src="/widget-emz/scripts/emz_script.js"><\/script>')</script>
-  <script>
+  <script  type="text/javascript">document.write('<script src="/widget-emz/scripts/emz_script.js"><\/script>')</script>
+  <script type="text/javascript">
     EMZ.init({
       reparticion: 'Deportes'
     });
@@ -57,8 +57,8 @@ El sistema permite también personalizar la cantidad de eventos a traer, utiliza
 ```html
   <!-- Script widget emz -->
   <link rel="stylesheet" href="/widget-emz/styles/emz_styles.css">
-  <script>document.write('<script src="/widget-emz/scripts/emz_script.js"><\/script>')</script>
-  <script>
+  <script type="text/javascript">document.write('<script src="/widget-emz/scripts/emz_script.js"><\/script>')</script>
+  <script type="text/javascript">
     EMZ.init({
       reparticion: 'Turismo',
       limite: '5'
