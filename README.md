@@ -1,8 +1,9 @@
 ﻿widget-emz
 ==========
 
-Widget Eventos de Mendoza
+Widget de Eventos de Mendoza
 
+[Descargar de aquí](https://github.com/Noviggo/widget-emz/zipball/master)
 
 Instrucciones de uso:
 ---------------------
