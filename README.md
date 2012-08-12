@@ -22,7 +22,7 @@ Instrucciones de uso:
   <!-- FIN Script widget emz -->
 ```
 
-* Recordar cambiar la sección _/widget-emz_ de la ruta si es necesario
+* Recordar cambiar la sección _/widget-emz_ de la ruta tanto del script como de css si es necesario
 
 Personalización:
 ----------------
