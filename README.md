@@ -15,7 +15,7 @@ Instrucciones de uso:
   <link rel="stylesheet" href="/widget-emz/styles/emz_styles.css">
   <script>document.write('<script src="/widget-emz/scripts/emz_script.js"><\/script>')</script>
   <script>
-    EMZ.init();
+    EMZ.init({});
   </script>
  
   <div id="emz_widget"></div>
