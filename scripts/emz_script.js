@@ -194,7 +194,7 @@ var EMZ = function () {
     strWidget += "  Cargando eventos ...";
 
     strWidget += "    <div class=\"emz_buttons\">";
-    strWidget += "      <a href=\""+ baseurl + "\" class=\"emz_moreinfo\">Ver más eventos<\/a>";
+    strWidget += "      <a href=\""+ baseurl + "\" class=\"emz_moreinfo\">Ver m&aacute;s eventos<\/a>";
     strWidget += "    <\/div>";
     strWidget += "  <\/div>";
     strWidget += "  <div class=\"emz_footer\">";
