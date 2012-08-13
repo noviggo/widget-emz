@@ -70,6 +70,7 @@ El sistema permite también personalizar la cantidad de eventos a traer, utiliza
 ```
 
 El elemento _#emz_widget_ puede ser estilado si se requiere, y es posible agregarle los nombres de clases que sean necesarios. Tenga en cuenta que los elementos del widget utilizan el prefijo emz_ para evitar conflictos con sus nombres actuales.
+
 Si necesita asignar un alto determinado añada a la clase emz_content:
 
 ```css
