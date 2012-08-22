@@ -7,6 +7,7 @@
 	position:relative;
 	content:"\00a0";
 	height:0;
+	clear:both;
 }
 .emz_wrapper, .emz_header_title, .emz_title, .emz_day, .emz_month, .emz_event_desc, .emz_event_actions, .emz_buttons{
 	font-family:Helvetica,Arial,sans-serif;
@@ -16,22 +17,50 @@
 }
 .emz_header{
 	height:78px;
-	padding-top:1px;
-	background:transparent url("../images/emz_head.png") left top no-repeat;
+  height:43px;
+  border-top:3px solid #4DC6F3;
+  background: #fff;
+  background-image: linear-gradient(bottom, #FFFFFF 80%, #BFE3F8 100%);
+  background-image: -o-linear-gradient(bottom, #FFFFFF 80%, #BFE3F8 100%);
+  background-image: -moz-linear-gradient(bottom, #FFFFFF 80%, #BFE3F8 100%);
+  background-image: -webkit-linear-gradient(bottom, #FFFFFF 80%, #BFE3F8 100%);
+  background-image: -ms-linear-gradient(bottom, #FFFFFF 80%, #BFE3F8 100%);
+  background-image: -webkit-gradient(
+  	linear,
+  	left bottom,
+  	left top,
+  	color-stop(0.80, #FFFFFF),
+  	color-stop(1, #BFE3F8)
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fff, endColorstr=#4d63f3);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fff, endColorstr=#4d63f3);
 }
+
 .emz_header_title{
-	font-size:32px;
-	padding-bottom:10px;
-	margin:16px 23px 0px 23px;
+	font-size:12px;
+	padding:16px 0 10px 0;
+	margin:0px 20px 0px 20px;
 	border-bottom:1px dotted #4F4A4A;
 	color:#000;
+	text-align:right;
+	background:transparent url("../images/emz_brand.png") left center no-repeat;
+	font-family:'Lucida Grande',Helvetica,Arial,sans-serif;
+}
+.emz_title a{
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+.emz_tiny .emz_title a{
+  color: #18B8F1;
 }
 .emz_content{
 	background-color:white;
 	padding:0 23px;
 }
 .emz_event{
-	margin-bottom:10px;
+	margin-bottom:6px;
+	padding-top:6px;
 	border-bottom:1px solid #B1B1B1;
 }
 .emz_title{
@@ -91,7 +120,7 @@
 		font-size:11px;
 		text-transform:uppercase;
 		padding: 5px 20px;
-		margin: 15px 0 0;
+		margin: 10px 0 0;
 		clear: both;
 		background: transparent url("../images/bg-button.png") left top repeat-x;
 		border: 1px solid #33B1E2;
@@ -110,26 +139,36 @@
 	background: #90d3eb url("../images/bg-button-dwn.png") left top repeat-x;
 	}
 .emz_footer{
-	min-height:60px;
+	min-height:43px;
 	padding-bottom:10px;
 	background:white url("../images/emz_foot.png") left bottom no-repeat;
 }
 	.emz_brand{
 		float:right;
 		width:100%;
-		height:60px;
+		height:43px;
 		margin-right:8px;
 	}
 	.emz_brand.emz_deportes{
-		background:transparent url("../images/emz_foot_dxt.png") right center no-repeat;
+		background:transparent url("../images/emz_foot_dxt.png") right -11px no-repeat;
 	}
 	.emz_brand.emz_cultura{
-		background:transparent url("../images/emz_foot_dxt.png") right center no-repeat;
+		background:transparent url("../images/emz_foot_dxt.png") right -11px no-repeat;
 	}
 	.emz_brand.emz_turismo{
-		background:transparent url("../images/emz_foot_dxt.png") right center no-repeat;
+		background:transparent url("../images/emz_foot_dxt.png") right -11px no-repeat;
 	}
-		
+/*small sizes*/
+.emz_tiny .emz_title{
+  display: block;
+  float: right;
+  padding-top: 9px;
+  clear: right;
+}
+.emz_tiny .emz_event{
+  padding-bottom:6px;
+  margin-bottom:0px;
+}
 /*nombres de clases temporales*/
 body{background-color:#333;}
 .modulo{
@@ -138,11 +177,33 @@ body{background-color:#333;}
 	margin-right:20px;
 }
 .m1{
-	width:160px;
+	width:250px;
 }
 .m2{
-	width:297px;
+	width:386px;
 }
 .m3{
-	width:590px;
+	width:500px;
+}
+.emz_scroll .emz_content{
+  overflow-x:hidden;
+  overfow-y:auto;
+}
+.emz_380x300{
+  width:380px;
+  height:300px;
+}
+.emz_380x300 .emz_content, .emz_500x300 .emz_content{
+  height:164px;
+}
+.emz_250 .emz_title{
+  width: 163px;
+}
+.emz_250 .emz_event{
+  margin-bottom:10px;
+  padding-top:10px;
+}
+.emz_500x300{
+  width:500px;
+  height:300px;
 }
