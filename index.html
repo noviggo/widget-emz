@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Widget-emz : Widget Eventos de Mendoza" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Widget-emz</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Noviggo/widget-emz">View on GitHub</a>
+
+          <h1 id="project_title">Widget-emz</h1>
+          <h2 id="project_tagline">Widget Eventos de Mendoza</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Noviggo/widget-emz/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Noviggo/widget-emz/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>widget-emz</h1>
+
+<p>Widget de Eventos de Mendoza by Noviggo.com</p>
+
+<p><a href="https://github.com/Noviggo/widget-emz/zipball/master">Descargar de aquí</a></p>
+
+<h2>Instrucciones de uso:</h2>
+
+<ul>
+<li>Colocar el siguiente segmento de código en el área donde se desea colocar el widget:</li>
+</ul><div class="highlight"><pre>  <span class="nt">&lt;div&gt;</span>
+    <span class="c">&lt;!-- Script widget emz --&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://raw.github.com/Noviggo/widget-emz/master/styles/emz_styles.css"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;script  </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span><span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="s1">'&lt;script src="https://raw.github.com/Noviggo/widget-emz/master/scripts/emz_script.js"&gt;&lt;\/script&gt;'</span><span class="p">)</span><span class="nt">&lt;/script&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span>
+      <span class="nx">EMZ</span><span class="p">.</span><span class="nx">init</span><span class="p">({</span>
+        <span class="nx">reparticion</span><span class="o">:</span> <span class="s1">'Deportes'</span><span class="p">,</span>
+        <span class="nx">limite</span><span class="o">:</span> <span class="s1">'2'</span>
+      <span class="p">});</span>
+    <span class="nt">&lt;/script&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"emz_widget"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="c">&lt;!-- FIN Script widget emz --&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+</pre></div>
+
+<h2>Insturcciones de uso si descarga el proyecto:</h2>
+
+<ul>
+<li>Descargar el proyecto y colocarlo en una carpeta con acceso desde la web, por ejemplo <strong>/widget-emz</strong>
+</li>
+<li>Colocar el siguiente segmento de código en el área donde se desea colocar el widget:</li>
+</ul><div class="highlight"><pre>  <span class="c">&lt;!-- Script widget emz --&gt;</span>
+  <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"/widget-emz/styles/emz_styles.css"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span><span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="s1">'&lt;script src="/widget-emz/scripts/emz_script.js"&gt;&lt;\/script&gt;'</span><span class="p">)</span><span class="nt">&lt;/script&gt;</span>
+  <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span>
+    <span class="nx">EMZ</span><span class="p">.</span><span class="nx">init</span><span class="p">({});</span>
+  <span class="nt">&lt;/script&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"emz_widget"</span><span class="nt">&gt;&lt;/div&gt;</span>
+  <span class="c">&lt;!-- FIN Script widget emz --&gt;</span>
+</pre></div>
+
+<ul>
+<li>Recordar cambiar la sección <em>/widget-emz</em> de la ruta tanto del script como de css si es necesario</li>
+</ul><h2>Personalización:</h2>
+
+<p><strong>Reparticiones</strong></p>
+
+<p>Si se desea obtener los resultados de alguna repartición en particular, colocarlo como parámetro <em>reparticion</em> en <em>init()</em>, por ejemplo para "Deportes":</p>
+
+<div class="highlight"><pre>  <span class="c">&lt;!-- Script widget emz --&gt;</span>
+  <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"/widget-emz/styles/emz_styles.css"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;script  </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span><span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="s1">'&lt;script src="/widget-emz/scripts/emz_script.js"&gt;&lt;\/script&gt;'</span><span class="p">)</span><span class="nt">&lt;/script&gt;</span>
+  <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span>
+    <span class="nx">EMZ</span><span class="p">.</span><span class="nx">init</span><span class="p">({</span>
+      <span class="nx">reparticion</span><span class="o">:</span> <span class="s1">'Deportes'</span>
+    <span class="p">});</span>
+  <span class="nt">&lt;/script&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"emz_widget"</span><span class="nt">&gt;&lt;/div&gt;</span>
+  <span class="c">&lt;!-- FIN Script widget emz --&gt;</span>
+</pre></div>
+
+<p>Los valores permitidos son:</p>
+
+<ul>
+<li>Deportes</li>
+<li>Turismo</li>
+<li>Cultura</li>
+</ul><p><strong>Cantidad de eventos a mostrar</strong></p>
+
+<p>El sistema permite también personalizar la cantidad de eventos a traer, utilizando el argumento <em>limite</em>, por ejemplo, para traer los próximos 5 eventos de Turismo:</p>
+
+<div class="highlight"><pre>  <span class="c">&lt;!-- Script widget emz --&gt;</span>
+  <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"/widget-emz/styles/emz_styles.css"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span><span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="s1">'&lt;script src="/widget-emz/scripts/emz_script.js"&gt;&lt;\/script&gt;'</span><span class="p">)</span><span class="nt">&lt;/script&gt;</span>
+  <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span>
+    <span class="nx">EMZ</span><span class="p">.</span><span class="nx">init</span><span class="p">({</span>
+      <span class="nx">reparticion</span><span class="o">:</span> <span class="s1">'Turismo'</span><span class="p">,</span>
+      <span class="nx">limite</span><span class="o">:</span> <span class="s1">'5'</span>
+    <span class="p">});</span>
+  <span class="nt">&lt;/script&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"emz_widget"</span><span class="nt">&gt;&lt;/div&gt;</span>
+  <span class="c">&lt;!-- FIN Script widget emz --&gt;</span>
+</pre></div>
+
+<p><strong>Personalización de estilos y dimensiones</strong></p>
+
+<p>El elemento <em>#emz_widget</em> puede ser estilado si se requiere, y es posible agregarle los nombres de clases que sean necesarios. Tenga en cuenta que los elementos del widget utilizan el prefijo emz_ para evitar conflictos con sus nombres actuales.</p>
+
+<p>Existen dos formas de visualizar el widget dependiendo si se añade el nombre de clase <em>emz_tiny</em> o no. El resultado es un listado de enventos sin el copete o descripcion:</p>
+
+<p><img src="https://raw.github.com/Noviggo/widget-emz/master/images/widget_tiny.jpg"> o <img src="https://raw.github.com/Noviggo/widget-emz/master/images/widget_normal.jpg"></p>
+
+<p>El widget ha sido diseñado para adaptarse al ancho del contenedor en que se lo posicione, con un mínimo de 250px. El alto dependerå de la cantidad de eventos solicitados o puede asignarsele (o utilizar los ya generados) un alto fijo teniendo en cuenta los siguientes requisitos:</p>
+
+<ul>
+<li>Debe estar dentro de un contenedor con alto y ancho asignado por css. Además, debe modificar el alto de la caja <em>emz_content</em> de la siguiente manera:</li>
+</ul><div class="highlight"><pre>  <span class="nc">.emz_content</span><span class="p">{</span>
+    <span class="k">height</span><span class="o">:</span><span class="m">00px</span><span class="p">;</span> <span class="c">/*asigne el valor de su conveniencia*/</span>
+    <span class="k">overflow-x</span><span class="o">:</span><span class="k">hidden</span><span class="p">;</span>
+  <span class="p">}</span>
+</pre></div>
+
+<ul>
+<li>Si se muestran mas elementos de los que entran en el tamaño especificado, se debe agregar a la caja contenedora la clase <em>emz_scroll</em> para agregar la barra de desplazamiento.</li>
+<li>
+<p>Tamaños predefinidos. Si desea utilizar estos tamaños solo agregue el nombre de clase en el contenedor <em>( ejemplo: emz_386x300 = width:386px; height:300px)</em></p>
+
+<ul>
+<li>emz_386x300</li>
+<li>emz_300x250</li>
+<li>emz_300x250</li>
+<li>emz_300x300</li>
+<li>emz_250x250</li>
+<li>emz_290x200</li>
+<li>emz_290x200</li>
+<li>emz_270x200</li>
+<li>emz_300x300</li>
+<li>emz_300x250</li>
+<li>emz_320x320</li>
+<li>emz_290x300</li>
+<li>emz_540x300</li>
+</ul>
+</li>
+</ul><h2>Ejemplo de uso:</h2>
+
+<div class="highlight"><pre>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"emz_tiny emz_300x300"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Script widget emz --&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://raw.github.com/Noviggo/widget-emz/master/styles/emz_styles.css"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;script  </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span><span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="s1">'&lt;script src="https://raw.github.com/Noviggo/widget-emz/master/scripts/emz_script.js"&gt;&lt;\/script&gt;'</span><span class="p">)</span><span class="nt">&lt;/script&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span>
+      <span class="nx">EMZ</span><span class="p">.</span><span class="nx">init</span><span class="p">({</span>
+        <span class="nx">reparticion</span><span class="o">:</span> <span class="s1">'Deportes'</span><span class="p">,</span>
+        <span class="nx">limite</span><span class="o">:</span> <span class="s1">'2'</span>
+      <span class="p">});</span>
+    <span class="nt">&lt;/script&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"emz_widget"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="c">&lt;!-- FIN Script widget emz --&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+</pre></div>
+
+<p>y se vera de la siguiente manera:</p>
+
+<p><img src="https://raw.github.com/Noviggo/widget-emz/master/images/widget_tiny.jpg"></p>
+
+<ul>
+<li>Cuando se utiliza un tamaño predefinido no es necesario utilizar la clase <em>emz_scroll</em>
+</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Widget-emz maintained by <a href="https://github.com/Noviggo">Noviggo</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
