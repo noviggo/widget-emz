@@ -13,8 +13,8 @@ Instrucciones de uso:
 ```html
   <div>
     <!-- Script widget emz -->
-    <link rel="stylesheet" href="https://raw.github.com/Noviggo/widget-emz/master/styles/emz_styles.css">
-    <script  type="text/javascript">document.write('<script src="https://raw.github.com/Noviggo/widget-emz/master/scripts/emz_script.js"><\/script>')</script>
+    <link rel="stylesheet" href="http://noviggo.github.com/widget-emz/source/styles/emz_styles.css">
+    <script  type="text/javascript">document.write('<script src="http://noviggo.github.com/widget-emz/source/scripts/emz_script.js"><\/script>')</script>
     <script type="text/javascript">
       EMZ.init({
         reparticion: 'Deportes',
@@ -99,7 +99,7 @@ El elemento _#emz_widget_ puede ser estilado si se requiere, y es posible agrega
 
 Existen dos formas de visualizar el widget dependiendo si se añade el nombre de clase _emz_tiny_ o no. El resultado es un listado de enventos sin el copete o descripcion:
 
-<img src="https://raw.github.com/Noviggo/widget-emz/master/images/widget_tiny.jpg"/> o <img src="https://raw.github.com/Noviggo/widget-emz/master/images/widget_normal.jpg"/>
+<img src="http://noviggo.github.com/widget-emz/source/images/widget_tiny.jpg"/> o <img src="http://noviggo.github.com/widget-emz/source/images/widget_normal.jpg"/>
 
 El widget ha sido diseñado para adaptarse al ancho del contenedor en que se lo posicione, con un mínimo de 250px. El alto dependerå de la cantidad de eventos solicitados o puede asignarsele (o utilizar los ya generados) un alto fijo teniendo en cuenta los siguientes requisitos:
 
@@ -135,8 +135,8 @@ Ejemplo de uso:
 ```html
   <div class="emz_tiny emz_300x300">
     <!-- Script widget emz -->
-    <link rel="stylesheet" href="https://raw.github.com/Noviggo/widget-emz/master/styles/emz_styles.css">
-    <script  type="text/javascript">document.write('<script src="https://raw.github.com/Noviggo/widget-emz/master/scripts/emz_script.js"><\/script>')</script>
+    <link rel="stylesheet" href="http://noviggo.github.com/widget-emz/source/styles/emz_styles.css">
+    <script  type="text/javascript">document.write('<script src="http://noviggo.github.com/widget-emz/source/scripts/emz_script.js"><\/script>')</script>
     <script type="text/javascript">
       EMZ.init({
         reparticion: 'Deportes',
@@ -151,6 +151,6 @@ Ejemplo de uso:
 
 y se vera de la siguiente manera:
 
-<img src="https://raw.github.com/Noviggo/widget-emz/master/images/widget_tiny.jpg"/>
+<img src="http://noviggo.github.com/widget-emz/source/images/widget_tiny.jpg"/>
 
 * Cuando se utiliza un tamaño predefinido no es necesario utilizar la clase _emz_scroll_
