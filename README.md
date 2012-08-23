@@ -95,7 +95,7 @@ El elemento _#emz_widget_ puede ser estilado si se requiere, y es posible agrega
 
 Existen dos formas de visualizar el widget dependiendo si se añade el nombre de clase _emz_tiny_ o no. El resultado es un listado de enventos sin el copete o descripcion:
 
-<img src="https://raw.github.com/flaviaza/widget-emz/master/images/widget_tiny.jpg"/> o <img src="https://raw.github.com/flaviaza/widget-emz/master/images/widget_normal.jpg"/>
+<img src="https://raw.github.com/Noviggo/widget-emz/master/images/widget_tiny.jpg"/> o <img src="https://raw.github.com/Noviggo/widget-emz/master/images/widget_normal.jpg"/>
 
 El widget ha sido diseñado para adaptarse al ancho del contenedor en que se lo posicione, con un mínimo de 250px. El alto dependerå de la cantidad de eventos solicitados o puede asignarsele (o utilizar los ya generados) un alto fijo teniendo en cuenta los siguientes requisitos:
 
@@ -147,6 +147,6 @@ Ejemplo de uso:
 
 y se vera de la siguiente manera:
 
-<img src="https://raw.github.com/flaviaza/widget-emz/master/images/widget_tiny.jpg"/>
+<img src="https://raw.github.com/Noviggo/widget-emz/master/images/widget_tiny.jpg"/>
 
 * Cuando se utiliza un tamaño predefinido no es necesario utilizar la clase _emz_scroll_
