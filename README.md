@@ -74,6 +74,8 @@ Los valores permitidos son:
 * Turismo
 * Cultura
 
+__Cantidad de eventos a mostrar__
+
 El sistema permite también personalizar la cantidad de eventos a traer, utilizando el argumento _limite_, por ejemplo, para traer los próximos 5 eventos de Turismo:
 
 ```html
@@ -90,6 +92,8 @@ El sistema permite también personalizar la cantidad de eventos a traer, utiliza
   <div id="emz_widget"></div>
   <!-- FIN Script widget emz -->
 ```
+
+__Personalización de estilos y dimensiones__
 
 El elemento _#emz_widget_ puede ser estilado si se requiere, y es posible agregarle los nombres de clases que sean necesarios. Tenga en cuenta que los elementos del widget utilizan el prefijo emz_ para evitar conflictos con sus nombres actuales.
 
