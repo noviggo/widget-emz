@@ -161,8 +161,14 @@
 /*small sizes*/
 .emz_tiny .emz_title{
   display: block;
-  float: right;
-  clear: right;
+  padding-left: 41px;
+  min-height: 34px;
+}
+.emz_tiny .emz_date{
+  width: 30px;
+  position: absolute;
+  float:none;
+  top:9px;
 }
 .emz_tiny .emz_event{
   padding-bottom:6px;
@@ -184,25 +190,64 @@ body{background-color:#333;}
 .m3{
 	width:500px;
 }
-.emz_scroll .emz_content{
+.emz_tiny .emz_event_desc, .emz_tiny .emz_event_actions{
+  display:none;
+}
+.emz_scroll .emz_content, .emz_386x300 .emz_content, .emz_540x300 .emz_content, .emz_300x300 .emz_content, .emz_290x300 .emz_content, .emz_290x200 .emz_content, .emz_270x200 .emz_content, .emz_320x250 .emz_content, .emz_250x250 .emz_content, .emz_320x320 .emz_content{
   overflow-x:hidden;
   overfow-y:auto;
 }
-.emz_380x300{
-  width:380px;
-  height:300px;
+.emz_386x300 .emz_content, .emz_540x300 .emz_content, .emz_300x300 .emz_content, .emz_290x300 .emz_content{
+ /* height:164px;*/
+ height:200px;
 }
-.emz_380x300 .emz_content, .emz_500x300 .emz_content{
-  height:164px;
-}
-.emz_250 .emz_title{
-  width: 163px;
-}
-.emz_250 .emz_event{
+.emz_tiny .emz_event{
   margin-bottom:10px;
   padding-top:10px;
 }
-.emz_500x300{
-  width:500px;
+.emz_386x300{
+  width:386px;
   height:300px;
 }
+.emz_540x300{
+  width:540px;
+  height:300px;
+}
+.emz_300x300{
+  width:300px;
+  height:300px;
+}
+.emz_290x300{
+  width:290px;
+  height:300px;
+}
+.emz_320x320 .emz_content{
+ height:220px;
+}
+.emz_320x320{
+  width:320px;
+  height:320px;
+}
+.emz_320x250 .emz_content, .emz_250x250 .emz_content{
+ height:151px;
+}
+.emz_300x250{
+  width:300px;
+  height:250px;
+}
+.emz_250x250{
+  width:250px;
+  height:250px;
+}
+.emz_290x200 .emz_content, .emz_270x200 .emz_content{
+ height:100px;
+}
+.emz_290x200{
+  width:290px;
+  height:200px;
+}
+.emz_270x200{
+  width:270px;
+  height:200px;
+}
+/*Tiny widgets*/
