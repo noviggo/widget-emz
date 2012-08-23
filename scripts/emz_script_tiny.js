@@ -138,7 +138,7 @@ var EMZ = function () {
   function callbackfunc (jsonData) {
 
     var strWidget="";
-    strWidget += "<div class=\"emz_wrapper emz_tiny" + classReparticion + "\">";
+    strWidget += "<div class=\"emz_wrapper emz_tiny " + classReparticion + "\">";
     strWidget += "  <div class=\"emz_header\">";
     strWidget += "    <span class=\"emz_header_title\">Agenda de Eventos<\/span>";
     strWidget += "  <\/div>";
@@ -179,7 +179,7 @@ var EMZ = function () {
 
     /* Crear mensaje de "Cargando" */
     var strWidget="";
-    strWidget += "<div class=\"emz_wrapper " + classReparticion + "\">";
+    strWidget += "<div class=\"emz_wrapper emz_tiny " + classReparticion + "\">";
     strWidget += "  <div class=\"emz_header\">";
     strWidget += "    <span class=\"emz_header_title\">Agenda de Eventos<\/span>";
     strWidget += "  <\/div>";
