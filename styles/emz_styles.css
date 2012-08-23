@@ -195,7 +195,7 @@ body{background-color:#333;}
 }
 .emz_scroll .emz_content, .emz_386x300 .emz_content, .emz_540x300 .emz_content, .emz_300x300 .emz_content, .emz_290x300 .emz_content, .emz_290x200 .emz_content, .emz_270x200 .emz_content, .emz_320x250 .emz_content, .emz_250x250 .emz_content, .emz_320x320 .emz_content{
   overflow-x:hidden;
-  overfow-y:auto;
+  overflow-y:auto;
 }
 .emz_386x300 .emz_content, .emz_540x300 .emz_content, .emz_300x300 .emz_content, .emz_290x300 .emz_content{
  /* height:164px;*/
