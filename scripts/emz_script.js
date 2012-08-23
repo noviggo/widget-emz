@@ -140,7 +140,7 @@ var EMZ = function () {
     var strWidget="";
     strWidget += "<div class=\"emz_wrapper " + classReparticion + "\">";
     strWidget += "  <div class=\"emz_header\">";
-    strWidget += "    <span class=\"emz_header_title\">Eventos<\/span>";
+    strWidget += "    <span class=\"emz_header_title\">Agenda de Eventos<\/span>";
     strWidget += "  <\/div>";
     strWidget += "  <div class=\"emz_content\">";
 
@@ -187,7 +187,7 @@ var EMZ = function () {
     var strWidget="";
     strWidget += "<div class=\"emz_wrapper " + classReparticion + "\">";
     strWidget += "  <div class=\"emz_header\">";
-    strWidget += "    <span class=\"emz_header_title\">Eventos<\/span>";
+    strWidget += "    <span class=\"emz_header_title\">Agenda de Eventos<\/span>";
     strWidget += "  <\/div>";
     strWidget += "  <div class=\"emz_content\">";
 

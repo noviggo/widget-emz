@@ -32,8 +32,8 @@
   	color-stop(0.80, #FFFFFF),
   	color-stop(1, #BFE3F8)
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#BFE3F8);
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#BFE3F8);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#BFE3F8, endColorstr=#ffffff);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#BFE3F8, endColorstr=#ffffff);
 }
 
 .emz_header_title{
