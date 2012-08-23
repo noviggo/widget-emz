@@ -1,8 +1,8 @@
 /* ========================================================
- * emz_script.js v1.0.0 - Noviggo
+ * emz_script.js v1.0.0
  * ========================================================
  * Creado por Guillermo Nuñez
- * Copyright 2012 Guillermo Nuñez All rights reserved.
+ * Copyright 2012 Noviggo.com All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or without modification, are
  * permitted provided that the following conditions are met:
@@ -138,7 +138,7 @@ var EMZ = function () {
   function callbackfunc (jsonData) {
 
     var strWidget="";
-    strWidget += "<div class=\"emz_wrapper " + classReparticion + "\">";
+    strWidget += "<div class=\"emz_wrapper emz_tiny " + classReparticion + "\">";
     strWidget += "  <div class=\"emz_header\">";
     strWidget += "    <span class=\"emz_header_title\">Agenda de Eventos<\/span>";
     strWidget += "  <\/div>";
@@ -155,12 +155,6 @@ var EMZ = function () {
       
       strWidget += "        <span class=\"emz_day\">" + fecha_hora.getDate() + "<\/span>";
       strWidget += "        <span class=\"emz_month\">" + mes(mes_fecha.toString()) + "<\/span>";
-      strWidget += "      <\/div>";
-      strWidget += "      <div class=\"emz_event_desc\">";
-      strWidget += "        <p>" + evento.copete + "<\/p>";
-      strWidget += "      <\/div>";
-      strWidget += "      <div class=\"emz_event_actions\">";
-      strWidget += "        <a href=\"" + baseurl + '/evento/' + evento.id + '/' + evento.slug + "\" class=\"emz_moreinfo\">Ver info completa +<\/a>";
       strWidget += "      <\/div>";
       strWidget += "    <\/div>";
     }
@@ -185,7 +179,7 @@ var EMZ = function () {
 
     /* Crear mensaje de "Cargando" */
     var strWidget="";
-    strWidget += "<div class=\"emz_wrapper " + classReparticion + "\">";
+    strWidget += "<div class=\"emz_wrapper emz_tiny " + classReparticion + "\">";
     strWidget += "  <div class=\"emz_header\">";
     strWidget += "    <span class=\"emz_header_title\">Agenda de Eventos<\/span>";
     strWidget += "  <\/div>";
