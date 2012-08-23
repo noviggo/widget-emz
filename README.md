@@ -112,7 +112,7 @@ El widget ha sido diseñado para adaptarse al ancho del contenedor en que se lo 
   }
 ```
 
-* Si se muestran mas de elementos de los que entran en el tamaño especificado, se debe agregar a la caja contenedora la clase _emz_scroll_ para agregar la barra de desplazamiento.
+* Si se muestran mas elementos de los que entran en el tamaño especificado, se debe agregar a la caja contenedora la clase _emz_scroll_ para agregar la barra de desplazamiento.
 * Tamaños predefinidos. Si desea utilizar estos tamaños solo agregue el nombre de clase en el contenedor _( ejemplo: emz_386x300 = width:386px; height:300px)_
  
  * emz_386x300
