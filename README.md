@@ -27,7 +27,7 @@ Instrucciones de uso:
   </div>
 ```
 
-Insturcciones de uso si desea descargar el proyecto:
+Insturcciones de uso si descarga el proyecto:
 ----------------------------------------------------
 
 * Descargar el proyecto y colocarlo en una carpeta con acceso desde la web, por ejemplo __/widget-emz__
