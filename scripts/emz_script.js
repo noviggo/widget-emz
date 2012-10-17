@@ -147,7 +147,7 @@ var EMZ = function () {
     for(var i = 0; i < jsonData.objects.length; i++) {
       var evento = jsonData.objects[i];
       strWidget += "    <div class=\"emz_event\">";
-      strWidget += "      <div class=\"emz_title\"><a href=\"" + baseurl + '/evento/' + evento.id + '/' + evento.slug + "\">" + evento.nombre + "<\/a><\/div>";
+      strWidget += "      <div class=\"emz_title\"><a href=\"" + baseurl + '/evento/' + evento.id + '/' + evento.slug + "\"target=\"_blank\">" + evento.nombre + "<\/a><\/div>";
       strWidget += "      <div class=\"emz_date\">";
       
       fecha_hora = new Date(evento.inicio);
@@ -160,12 +160,12 @@ var EMZ = function () {
       strWidget += "        <p>" + evento.copete + "<\/p>";
       strWidget += "      <\/div>";
       strWidget += "      <div class=\"emz_event_actions\">";
-      strWidget += "        <a href=\"" + baseurl + '/evento/' + evento.id + '/' + evento.slug + "\" class=\"emz_moreinfo\">Ver info completa +<\/a>";
+      strWidget += "        <a href=\"" + baseurl + '/evento/' + evento.id + '/' + evento.slug + "\" class=\"emz_moreinfo\" target=\"_blank\">Ver info completa +<\/a>";
       strWidget += "      <\/div>";
       strWidget += "    <\/div>";
     }
     strWidget += "    <div class=\"emz_buttons\">";
-    strWidget += "      <a href=\""+ baseurl + "\" class=\"emz_moreinfo\">Ver m&aacute;s eventos<\/a>";
+    strWidget += "      <a href=\""+ baseurl + "\" class=\"emz_moreinfo\" target=\"_blank\">Ver m&aacute;s eventos<\/a>";
     strWidget += "    <\/div>";
     strWidget += "  <\/div>";
     strWidget += "  <div class=\"emz_footer\">";
@@ -194,7 +194,7 @@ var EMZ = function () {
     strWidget += "  Cargando eventos ...";
 
     strWidget += "    <div class=\"emz_buttons\">";
-    strWidget += "      <a href=\""+ baseurl + "\" class=\"emz_moreinfo\">Ver m&aacute;s eventos<\/a>";
+    strWidget += "      <a href=\""+ baseurl + "\" class=\"emz_moreinfo\" target=\"_blank\">Ver m&aacute;s eventos<\/a>";
     strWidget += "    <\/div>";
     strWidget += "  <\/div>";
     strWidget += "  <div class=\"emz_footer\">";
