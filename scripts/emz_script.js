@@ -160,12 +160,12 @@ var EMZ = function () {
       strWidget += "        <p>" + evento.copete + "<\/p>";
       strWidget += "      <\/div>";
       strWidget += "      <div class=\"emz_event_actions\">";
-      strWidget += "        <a href=\"" + baseurl + '/evento/' + evento.id + '/' + evento.slug + "\" class=\"emz_moreinfo\" target=\"_blank\">Ver info completa +<\/a>";
+      strWidget += "        <a href=\"" + baseurl + '/evento/' + evento.id + '/' + evento.slug + "?origen=widget\" class=\"emz_moreinfo\" target=\"_blank\">Ver info completa +<\/a>";
       strWidget += "      <\/div>";
       strWidget += "    <\/div>";
     }
     strWidget += "    <div class=\"emz_buttons\">";
-    strWidget += "      <a href=\""+ baseurl + "\" class=\"emz_moreinfo\" target=\"_blank\">Ver m&aacute;s eventos<\/a>";
+    strWidget += "      <a href=\""+ baseurl + "?origen=widget\" class=\"emz_moreinfo\" target=\"_blank\">Ver m&aacute;s eventos<\/a>";
     strWidget += "    <\/div>";
     strWidget += "  <\/div>";
     strWidget += "  <div class=\"emz_footer\">";
