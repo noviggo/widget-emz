@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<div>
+    <!-- Script widget emz -->
+    <link rel="stylesheet" href="widget-emz/styles/emz_styles.css">
+    <script  type="text/javascript">document.write('<script src="widget-emz/scripts/emz_script.js"><\/script>')</script>
+    <script type="text/javascript">
+    params = window.location.search.substr(1).match(/topic=(.+)&length=(.*)/);
+      EMZ.init({
+        reparticion: params ? params[1] : null, 
+        limite: params ? params[2] : null
+      });
+    </script>
+ 
+    <div id="emz_widget"></div>
+    <!-- FIN Script widget emz -->
+  </div>
+</body>
+</html>
