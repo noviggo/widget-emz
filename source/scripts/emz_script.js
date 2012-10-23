@@ -147,7 +147,7 @@ var EMZ = function () {
     for(var i = 0; i < jsonData.objects.length; i++) {
       var evento = jsonData.objects[i];
       strWidget += "    <div class=\"emz_event\">";
-      strWidget += "      <div class=\"emz_title\"><a href=\"" + baseurl + '/evento/' + evento.id + '/' + evento.slug + "\">" + evento.nombre + "<\/a><\/div>";
+      strWidget += "      <div class=\"emz_title\"><a href=\"" + baseurl + '/evento/' + evento.id + '/' + evento.slug + "?origen=widget\">" + evento.nombre + "<\/a><\/div>";
       strWidget += "      <div class=\"emz_date\">";
       
       fecha_hora = new Date(evento.inicio);
@@ -194,7 +194,7 @@ var EMZ = function () {
     strWidget += "  Cargando eventos ...";
 
     strWidget += "    <div class=\"emz_buttons\">";
-    strWidget += "      <a href=\""+ baseurl + "\" class=\"emz_moreinfo\" target=\"_blank\">Ver m&aacute;s eventos<\/a>";
+    strWidget += "      <a href=\""+ baseurl + "?origen=widget\" class=\"emz_moreinfo\" target=\"_blank\">Ver m&aacute;s eventos<\/a>";
     strWidget += "    <\/div>";
     strWidget += "  <\/div>";
     strWidget += "  <div class=\"emz_footer\">";
