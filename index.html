@@ -43,12 +43,8 @@
     <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"http://noviggo.github.com/widget-emz/source/styles/emz_styles.css"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;script  </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span><span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="s1">'&lt;script src="http://noviggo.github.com/widget-emz/source/scripts/emz_script.js"&gt;&lt;\/script&gt;'</span><span class="p">)</span><span class="nt">&lt;/script&gt;</span>
     <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span>
-      <span class="nx">EMZ</span><span class="p">.</span><span class="nx">init</span><span class="p">({</span>
-        <span class="nx">reparticion</span><span class="o">:</span> <span class="s1">'Deportes'</span><span class="p">,</span>
-        <span class="nx">limite</span><span class="o">:</span> <span class="s1">'2'</span>
-      <span class="p">});</span>
+      <span class="nx">EMZ</span><span class="p">.</span><span class="nx">init</span><span class="p">({});</span>
     <span class="nt">&lt;/script&gt;</span>
-
     <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"emz_widget"</span><span class="nt">&gt;&lt;/div&gt;</span>
     <span class="c">&lt;!-- FIN Script widget emz --&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
@@ -182,7 +178,22 @@
 <ul>
 <li>Cuando se utiliza un tamaño predefinido no es necesario utilizar la clase <em>emz_scroll</em>
 </li>
-</ul>
+</ul><h2>Implementar en un iframe:</h2>
+
+<div class="highlight"><pre>  <span class="nt">&lt;iframe</span> <span class="na">src=</span><span class="s">"http://noviggo.github.com/widget-emz/widget.html"</span><span class="nt">&gt;&lt;/iframe&gt;</span>
+</pre></div>
+
+<p><strong>Parámetros</strong></p>
+
+<p>Para personalizar el widget se debe componer la url de la siguiente manera:</p>
+
+<p><a href="http://noviggo.github.com/widget-emz/widget.html?topic=Cultura&amp;length=5">http://noviggo.github.com/widget-emz/widget.html?topic=Cultura&amp;length=5</a> </p>
+
+<p>donde en la url "topic" puede ser equivalente a una de las tres reparticiones y "length" a la cantidad de eventos a mostrar. Por ejemplo en la url anterior se van a mostrar 5 eventos de Cultura.</p>
+
+<p>Para el caso de Turismo: <a href="http://noviggo.github.com/widget-emz/widget.html?topic=Turismo&amp;length=5">http://noviggo.github.com/widget-emz/widget.html?topic=Turismo&amp;length=5</a></p>
+
+<p>Finalmente Deportes: Para el caso de Turismo: <a href="http://noviggo.github.com/widget-emz/widget.html?topic=Deportes&amp;length=5">http://noviggo.github.com/widget-emz/widget.html?topic=Deportes&amp;length=5</a> </p>
       </section>
       <footer>
         <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
