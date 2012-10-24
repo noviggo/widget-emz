@@ -33,7 +33,7 @@
 var EMZ = function () {
   var
     /* El sitio web */
-    baseurl = 'http://www.eventos.mendoza.gov.ar',
+    baseurl = 'http://eventos.mendoza.gov.ar',
     
     /* La reparticion. Valores aceptados:
      * '': Para todos
