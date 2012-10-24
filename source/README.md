@@ -16,10 +16,7 @@ Instrucciones de uso:
     <link rel="stylesheet" href="http://noviggo.github.com/widget-emz/source/styles/emz_styles.css">
     <script  type="text/javascript">document.write('<script src="http://noviggo.github.com/widget-emz/source/scripts/emz_script.js"><\/script>')</script>
     <script type="text/javascript">
-      EMZ.init({
-        reparticion: 'Deportes',
-        limite: '2'
-      });
+      EMZ.init({});
     </script>
  
     <div id="emz_widget"></div>
